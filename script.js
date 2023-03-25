@@ -1,3 +1,4 @@
 console.log("Hello")
-var b=3
-console.log(b);
+var a=10;
+console.log(a);
+
