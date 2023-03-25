@@ -12,8 +12,7 @@ jobs:
       - uses: codytseng/auto-comment-merge-conflicts@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          comment-body: `Hey there 👋🏼, your current PR has some merge conflicts.
-          KIndly try to resolve them in your local fork and push the new changes.`
+          comment-body: `Hey there 👋🏼, your current PR has some merge conflicts. KIndly try to resolve them in your local fork and push the new changes.`
           wait-ms: 3000
           max-retries: 5
           ignore-authors: asyncapi-bot,dependabot[bot],dependabot-preview[bot],allcontributors
