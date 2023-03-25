@@ -16,4 +16,4 @@ jobs:
           KIndly try to resolve them in your local fork and push the new changes.`
           wait-ms: 3000
           max-retries: 5
-          ignore-authors: asyncapi-bot,dependabot[bot],dependabot-preview[bot],allcontributors,github.actor
+          ignore-authors: asyncapi-bot,dependabot[bot],dependabot-preview[bot],allcontributors
