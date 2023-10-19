@@ -15,7 +15,7 @@ jobs:
         
       - name: Create Config File
         run: |
-          echo "Sam: Hello" > config.yml  # Replace with your configuration content
+          echo "US: Hello" > config.yml  # Replace with your configuration content
           
       - name: Commit and Push Changes
         run: |
