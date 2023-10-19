@@ -1,0 +1,25 @@
+name: Update Config File
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as needed
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Create Config File
+        run: |
+          echo "Sam: Hello" > config.yml  # Replace with your configuration content
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@users.noreply.github.com"
+          git add config.yml
+          git commit -m "Update config file via GitHub Actions"
+          git push
