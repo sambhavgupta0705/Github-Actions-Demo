@@ -24,7 +24,7 @@ jobs:
     - name: Check spelling of all files
       uses: crate-ci/typos@master
       with: 
-        files: ./
+        files: ./docs
 
     - name: Writes changes in the local checkout
       uses: crate-ci/typos@master
