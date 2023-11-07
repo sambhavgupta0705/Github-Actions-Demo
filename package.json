@@ -1,12 +1,27 @@
 {
   "name": "githubactions",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nyc": "^15.1.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhavgupta0705/Github-Actions-Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sambhavgupta0705/Github-Actions-Demo/issues"
+  },
+  "homepage": "https://github.com/sambhavgupta0705/Github-Actions-Demo#readme",
+  "description": ""
 }
